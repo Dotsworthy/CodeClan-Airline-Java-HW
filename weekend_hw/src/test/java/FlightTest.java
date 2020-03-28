@@ -10,12 +10,13 @@ public class FlightTest {
     Plane plane;
     Passenger passenger;
     Flight flight;
+    ArrayList<Passenger> passengers;
 
     @Before
     public void before() {
-        plane = new Plane(PlaneType.BOEING747, 2, 41000);
+        plane = new Plane(PlaneType.BOEING747, 1, 41000);
         passenger = new Passenger("Eleanor", 2);
-        ArrayList<String> passengers = new ArrayList();
+        passengers = new ArrayList();
         flight = new Flight(passengers, plane, 0001, "Naples","Edinburgh", "1900");
     }
 
@@ -49,4 +50,16 @@ public class FlightTest {
         assertEquals("1900", flight.getDepartureTime());
     }
 
+    @Test
+    public void canBookAPassenger(){
+        flight.addPassenger(passenger);
+        assertEquals(1, flight.getNoOfPassengers());
+    }
+
+    @Test
+    public void cantAddMoreThanCapacity() {
+        flight.addPassenger(passenger);
+        flight.addPassenger(passenger);
+        assertEquals(1, flight.getNoOfPassengers());
+    }
 }
