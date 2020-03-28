@@ -33,7 +33,16 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
-  <component name="RunManager" selected="JUnit.PlaneTest">
+  <component name="RunManager" selected="JUnit.FlightTest">
+    <configuration name="FlightTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="weekend_hw" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FlightTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PassengerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="weekend_hw" />
       <option name="PACKAGE_NAME" value="" />
@@ -54,6 +63,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FlightTest" />
         <item itemvalue="JUnit.PlaneTest" />
         <item itemvalue="JUnit.PassengerTest" />
       </list>
@@ -85,21 +95,25 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="678" height="216" key="GridCell.Tab.0.bottom" timestamp="1585425297381">
+    <state width="678" height="216" key="GridCell.Tab.0.bottom" timestamp="1585427246265">
       <screen x="0" y="23" width="1440" height="834" />
     </state>
-    <state width="678" height="216" key="GridCell.Tab.0.bottom/0.23.1440.834@0.23.1440.834" timestamp="1585425297381" />
-    <state width="678" height="216" key="GridCell.Tab.0.center" timestamp="1585425297380">
+    <state width="678" height="216" key="GridCell.Tab.0.bottom/0.23.1440.834@0.23.1440.834" timestamp="1585427246265" />
+    <state width="678" height="216" key="GridCell.Tab.0.center" timestamp="1585427246264">
       <screen x="0" y="23" width="1440" height="834" />
     </state>
-    <state width="678" height="216" key="GridCell.Tab.0.center/0.23.1440.834@0.23.1440.834" timestamp="1585425297380" />
-    <state width="678" height="216" key="GridCell.Tab.0.left" timestamp="1585425297379">
+    <state width="678" height="216" key="GridCell.Tab.0.center/0.23.1440.834@0.23.1440.834" timestamp="1585427246264" />
+    <state width="678" height="216" key="GridCell.Tab.0.left" timestamp="1585427246263">
       <screen x="0" y="23" width="1440" height="834" />
     </state>
-    <state width="678" height="216" key="GridCell.Tab.0.left/0.23.1440.834@0.23.1440.834" timestamp="1585425297379" />
-    <state width="678" height="216" key="GridCell.Tab.0.right" timestamp="1585425297380">
+    <state width="678" height="216" key="GridCell.Tab.0.left/0.23.1440.834@0.23.1440.834" timestamp="1585427246263" />
+    <state width="678" height="216" key="GridCell.Tab.0.right" timestamp="1585427246264">
       <screen x="0" y="23" width="1440" height="834" />
     </state>
-    <state width="678" height="216" key="GridCell.Tab.0.right/0.23.1440.834@0.23.1440.834" timestamp="1585425297380" />
+    <state width="678" height="216" key="GridCell.Tab.0.right/0.23.1440.834@0.23.1440.834" timestamp="1585427246264" />
+    <state x="25" y="181" width="670" height="676" key="search.everywhere.popup" timestamp="1585426618980">
+      <screen x="0" y="23" width="1440" height="834" />
+    </state>
+    <state x="25" y="181" width="670" height="676" key="search.everywhere.popup/0.23.1440.834@0.23.1440.834" timestamp="1585426618980" />
   </component>
 </project>
