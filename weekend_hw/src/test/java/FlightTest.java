@@ -9,7 +9,9 @@ import static org.junit.Assert.assertEquals;
 public class FlightTest {
 
     Plane plane;
-    Passenger passenger;
+    Passenger passenger1;
+    Passenger passenger2;
+    Passenger passenger3;
     Flight flight;
     ArrayList<Passenger> passengers;
     Date departureTime;
@@ -19,7 +21,9 @@ public class FlightTest {
     public void before() {
         plane = new Plane(PlaneType.BOEING747, 2, 100);
         departureTime = new Date(2020, 02, 28, 19,00);
-        passenger = new Passenger("Eleanor", 2, null, null);
+        passenger1 = new Passenger("Eleanor", 2, null, null);
+        passenger2 = new Passenger("Andrew", 2, null, null);
+        passenger3 = new Passenger("Oscar", 2, null, null);
         passengers = new ArrayList();
         flight = new Flight(passengers,
                 plane,
@@ -61,15 +65,21 @@ public class FlightTest {
 
     @Test
     public void canBookAPassenger(){
-        flight.addPassenger(passenger);
+        flight.addPassenger(passenger1);
+        assertEquals(1, flight.getNoOfPassengers());
+    }
+
+    @Test public void cantHaveSamePassengerMoreThanOnce(){
+        flight.addPassenger(passenger1);
+        flight.addPassenger(passenger1);
         assertEquals(1, flight.getNoOfPassengers());
     }
 
     @Test
     public void cantAddMoreThanCapacity() {
-        flight.addPassenger(passenger);
-        flight.addPassenger(passenger);
-        flight.addPassenger(passenger);
+        flight.addPassenger(passenger1);
+        flight.addPassenger(passenger2);
+        flight.addPassenger(passenger3);
         assertEquals(2, flight.getNoOfPassengers());
     }
 

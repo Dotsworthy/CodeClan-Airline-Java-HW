@@ -49,13 +49,6 @@ public class Flight {
         return this.departureTime;
     }
 
-    public void addPassenger(Passenger passenger) {
-        if (this.passengers.size() < this.plane.getCapacity()) {
-            this.passengers.add(passenger);
-            passenger.addSeatNumber(reserveSeat());
-        }
-    }
-
     public ArrayList createSeatNumbers() {
         int index = 1;
         while (index <= plane.getCapacity()) {
@@ -72,5 +65,16 @@ public class Flight {
 
     public int reserveSeat() {
         return seatNumbers.remove(0);
+    }
+
+    public void addPassenger(Passenger passenger) {
+        boolean containsPassenger = this.passengers.contains(passenger);
+
+        if (containsPassenger == false) {
+            if (this.passengers.size() < this.plane.getCapacity()) {
+                this.passengers.add(passenger);
+                passenger.addSeatNumber(reserveSeat());
+            }
+        }
     }
 }
