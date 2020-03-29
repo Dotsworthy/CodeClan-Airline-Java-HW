@@ -23,7 +23,13 @@ public class FlightManagerTest {
 
     @Test
     public void canCalculateWeightLimitForCapacity() {
-        assertEquals(25, flightManager.getWeightLimit(plane));
+        assertEquals(25, flightManager.getWeightLimitPerPassenger(plane));
+    }
+
+    @Test
+    public void canCalculateBaggageWeightBookedForPassenger() {
+        flight.addPassenger(passenger);
+        assertEquals(25,flightManager.getWeightUsed(flight));
     }
 
 }

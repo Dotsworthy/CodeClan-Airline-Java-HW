@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="653d3ddd-77dd-48a1-aafd-3fd36331ba55" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/FlightManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FlightManagerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FlightTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FlightTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PlaneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PlaneTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FlightManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FlightManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FlightManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FlightManagerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,59 +124,49 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="244" key="GridCell.Tab.0.bottom" timestamp="1585440821357">
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom" timestamp="1585441351487">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585440821357" />
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585441351487" />
     <state width="678" height="216" key="GridCell.Tab.0.bottom/0.23.1440.834@0.23.1440.834" timestamp="1585428433295" />
-    <state width="1398" height="244" key="GridCell.Tab.0.center" timestamp="1585440821356">
+    <state width="1398" height="244" key="GridCell.Tab.0.center" timestamp="1585441351485">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1585440821356" />
+    <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1585441351485" />
     <state width="678" height="216" key="GridCell.Tab.0.center/0.23.1440.834@0.23.1440.834" timestamp="1585428433294" />
-    <state width="1398" height="244" key="GridCell.Tab.0.left" timestamp="1585440821355">
+    <state width="1398" height="244" key="GridCell.Tab.0.left" timestamp="1585441351485">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1585440821355" />
+    <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1585441351485" />
     <state width="678" height="216" key="GridCell.Tab.0.left/0.23.1440.834@0.23.1440.834" timestamp="1585428433294" />
-    <state width="1398" height="244" key="GridCell.Tab.0.right" timestamp="1585440821357">
+    <state width="1398" height="244" key="GridCell.Tab.0.right" timestamp="1585441351486">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1585440821357" />
+    <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1585441351486" />
     <state width="678" height="216" key="GridCell.Tab.0.right/0.23.1440.834@0.23.1440.834" timestamp="1585428433295" />
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1585440797413">
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1585440904530">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585440797413" />
-    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1585440797411">
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585440904530" />
+    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1585440904529">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1585440797411" />
-    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1585440797410">
+    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1585440904529" />
+    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1585440904528">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1585440797410" />
-    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1585440797412">
+    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1585440904528" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1585440904530">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1585440797412" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1585440904530" />
+    <state x="296" y="193" width="848" height="590" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1585440897781">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="296" y="193" width="848" height="590" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1440.900@0.0.1440.900" timestamp="1585440897781" />
     <state x="25" y="181" width="670" height="676" key="search.everywhere.popup" timestamp="1585426618980">
       <screen x="0" y="23" width="1440" height="834" />
     </state>
     <state x="25" y="181" width="670" height="676" key="search.everywhere.popup/0.23.1440.834@0.23.1440.834" timestamp="1585426618980" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/FlightManagerTest.java</url>
-          <line>24</line>
-          <properties class="FlightManagerTest" method="canCalculateWeightLimitForCapacity">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
