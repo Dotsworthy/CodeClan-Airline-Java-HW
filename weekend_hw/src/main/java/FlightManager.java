@@ -13,4 +13,13 @@ public class FlightManager {
         int weightUsed = weightLimitPerPassenger * NoOfPassengers;
         return weightUsed;
     }
+
+    public static int getWeightRemaining(Flight flight) {
+        int weightUsed = getWeightUsed(flight);
+        Plane plane = flight.getPlane();
+        int totalWeight = plane.getWeight();
+        int weightRemaining = totalWeight - weightUsed;
+        return weightRemaining;
+
+    }
 }

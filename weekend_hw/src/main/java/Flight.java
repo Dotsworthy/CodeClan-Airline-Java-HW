@@ -1,3 +1,8 @@
+import java.sql.Date;
+import java.sql.Time;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 
 public class Flight {
@@ -8,17 +13,17 @@ public class Flight {
     private int flightNumber;
     private String destination;
     private String departsFrom;
-    private String departureTime;
+    private Date departureTime;
 
-    public Flight(ArrayList<Passenger> passengers, Plane plane, int flightNumber, String destination, String departsFrom, String departureTime) {
+    public Flight(ArrayList<Passenger> passengers, Plane plane, int flightNumber, String destination, String departsFrom, Date departureTime) {
         this.passengers = passengers;
         this.plane = plane;
         this.flightNumber = flightNumber;
         this.destination = destination;
         this.departsFrom = departsFrom;
         this.departureTime = departureTime;
-    }
 
+    }
 
     public int getNoOfPassengers() {
         return this.passengers.size();
@@ -40,7 +45,7 @@ public class Flight {
         return this.departsFrom;
     }
 
-    public String getDepartureTime() {
+    public Date getDepartureTime() {
         return this.departureTime;
     }
 

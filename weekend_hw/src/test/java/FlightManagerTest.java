@@ -18,7 +18,7 @@ public class FlightManagerTest {
         plane = new Plane(PlaneType.BOEING747, 4, 100);
         passenger = new Passenger("Eleanor", 2);
         passengers = new ArrayList();
-        flight = new Flight(passengers, plane, 0001, "Naples","Edinburgh", "1900");
+        flight = new Flight(passengers, plane, 0001, "Naples","Edinburgh", "19:00");
     }
 
     @Test
@@ -32,4 +32,9 @@ public class FlightManagerTest {
         assertEquals(25,flightManager.getWeightUsed(flight));
     }
 
+    @Test
+    public void canGetWeightRemaining() {
+        flight.addPassenger(passenger);
+        assertEquals(75, flightManager.getWeightRemaining(flight));
+    }
 }
