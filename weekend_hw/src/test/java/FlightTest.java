@@ -2,6 +2,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import java.util.ArrayList;
+import java.util.Date;
 
 import static org.junit.Assert.assertEquals;
 
@@ -11,13 +12,21 @@ public class FlightTest {
     Passenger passenger;
     Flight flight;
     ArrayList<Passenger> passengers;
+    Date departureTime;
+
 
     @Before
     public void before() {
-        plane = new Plane(PlaneType.BOEING747, 1, 100);
-        passenger = new Passenger("Eleanor", 2);
+        plane = new Plane(PlaneType.BOEING747, 2, 100);
+        departureTime = new Date(2020, 02, 28, 19,00);
+        passenger = new Passenger("Eleanor", 2, null, null);
         passengers = new ArrayList();
-        flight = new Flight(passengers, plane, 0001, "Naples","Edinburgh", "1900");
+        flight = new Flight(passengers,
+                plane,
+                0001,
+                "Naples",
+                "Edinburgh",
+                departureTime);
     }
 
     @Test
@@ -47,7 +56,7 @@ public class FlightTest {
 
     @Test
     public void canGetDepartureTime() {
-        assertEquals("1900", flight.getDepartureTime());
+        assertEquals(departureTime, flight.getDepartureTime());
     }
 
     @Test
@@ -60,6 +69,18 @@ public class FlightTest {
     public void cantAddMoreThanCapacity() {
         flight.addPassenger(passenger);
         flight.addPassenger(passenger);
-        assertEquals(1, flight.getNoOfPassengers());
+        flight.addPassenger(passenger);
+        assertEquals(2, flight.getNoOfPassengers());
+    }
+
+    @Test
+    public void canCreateSeatNumbers() {
+        assertEquals(2,flight.getNoOfSeats());
+    }
+
+    @Test
+    public void canRemoveSeatNumber() {
+        flight.reserveSeat();
+        assertEquals(1, flight.getNoOfSeats());
     }
 }
