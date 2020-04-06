@@ -1,6 +1,6 @@
 # Airline lab for CodeClan Week 11 Weekend Homework
+CodeClan homework with the following brief:
 
-## Airline!
 Your task is to model a system for the world renowned online travel booking agent TravelJava. You should use the tools you have learnt this week where appropriate and useful. Remember to TDD!
 
 TravelJava doesn't really exist (sadly) - don't stress about how a "real" example of this would work differently. This is just an exercise to practice some different concepts.
